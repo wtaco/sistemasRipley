@@ -1,0 +1,6 @@
+include 'model-ifz.jar', 'model-imp.jar', 'slb.ear', 'service-ifz.jar', 'service-imp.jar'
+/**project(':service-imp.jar').name='drawback-service-imp.jar'
+project(':service-ifz.jar').name='drawback-service-ifz.jar'
+project(':model-imp.jar').name='drawback-model-imp.jar'
+project(':model-ifz.jar').name='drawback-model-ifz.jar'**/
+project(':slb.ear').name='despaduanero2-drawback-sharedlib.ear'

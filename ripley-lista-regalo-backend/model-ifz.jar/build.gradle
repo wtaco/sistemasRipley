@@ -1,0 +1,26 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+ 
+mainClassName = 'com.ripley.lista.regalo.model.Prueba'
+ 
+version = '1.0'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+ 
+
+jar {
+    baseName = project.name + '-all'
+    version  =  '1.0'
+}
+ 
+repositories {
+    mavenCentral()
+    }
+ 
+dependencies {
+      compile 'org.slf4j:slf4j-api:1.7.12'
+      testCompile "junit:junit:4.12"
+      compile group: 'org.springframework', name: 'spring-orm', version: '3.0.6.RELEASE'
+      compile 'org.mybatis:mybatis:3.2.8'
+ }
